@@ -40,7 +40,7 @@ function InputForm() {
         msg.length === 0 && (
           <div className='p-5 mt-5 text-center md:w-[400px]'>
             <div className='w-50 h-50 mx-auto'>
-              <img src="./src/assets/logo.png" alt="AI Logo" className='w-full h-full object-cover'/>
+              <img src="./assets/image/logo.png" alt="AI Logo" className='w-full h-full object-cover'/>
             </div>
             <div>
               <h1 className='text-2xl font-bold'>Welcome to AI Assistant</h1>
