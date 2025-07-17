@@ -34,8 +34,7 @@ function InputForm() {
   }
 
   return (
-    <div className="w-full  sm:h-[750px] lg:h-[620px] xl:h-[550px] flex flex-col items-center bg-transparent">
-
+    <div className="w-full flex flex-col items-center bg-transparent">
       {
         msg.length === 0 && (
           <div className='p-5 mt-5 text-center md:w-[400px]'>
@@ -60,7 +59,7 @@ function InputForm() {
           <div key={m.id || i}>
             {m.role === 'user' ? (
               <div className='flex justify-end'>
-                <div className='text-center'>
+                <div className='text-end'>
                   <div className='bg-blue-900 px-4 py-3 text-white rounded-2xl'>
                     <h1>{m.content}</h1>
                   </div>
