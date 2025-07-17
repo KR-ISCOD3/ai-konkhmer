@@ -73,7 +73,7 @@ function InputForm() {
             ) : (
               <div className='flex justify-start mt-4 relative'>
                 <div className='absolute w-[40px] h-[40px] bg-blue-900 mr-2 rounded-full overflow-hidden border-2 border-blue-950 '>
-                  <img src="./src/assets/logo.png" className='w-full h-full object-cover' alt="" />
+                  <img src="./image/logo.png" className='w-full h-full object-cover' alt="" />
                 </div>
                 <div className='ms-[50px]'>
                   <div className='bg-pink-900 px-4 py-3 text-white rounded-2xl'>
